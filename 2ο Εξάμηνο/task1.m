@@ -51,6 +51,7 @@ yline(1.0, "LineStyle", "--", "Color", "k")
 lgd = legend("electrons", "holes");
 lgd.Color = "w";
 lgd.TextColor = "k";
+lgd.EdgeColor = "k";
 
 ttl = title("Density Of States vs Energy");
 ttl.Color = "k";
